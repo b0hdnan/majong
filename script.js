@@ -2,15 +2,15 @@ const board = document.querySelector(".board");
 let persons = [
   {
     name: "Степан Бандера",
-    img: "http://surl.li/gbjzp"
+    img: "./img/001.jpg"
   },
   {
     name: "Євген Коновалець",
-    img: "http://surl.li/gblax"
+    img: "./img/002.jpg"
   },
   {
     name: "Левко Лук'яненко",
-    img: "http://surl.li/gdznp"
+    img: "./img/3.png"
   },
   {
     name: "Іван Миколайчук",
