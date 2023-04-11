@@ -148,7 +148,7 @@ function check() {
   }
 }
 let fon = new Audio();
-fon.src = "kossacks.mp3";
+fon.src = "./sounds/kossacks.mp3";
 fon.play();
 setInterval(fon.play(), 1500000);
 
