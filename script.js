@@ -10,7 +10,7 @@ let persons = [
   },
   {
     name: "Левко Лук'яненко",
-    img: "./img/3.png"
+    img: "./img/003.png"
   },
   {
     name: "Іван Миколайчук",
