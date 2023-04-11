@@ -1,0 +1,3 @@
+  // для різної анімації tiles
+  time = Math.random() * 2;
+  this.style.setProperty("--animation-time", time + "s");
