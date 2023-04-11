@@ -14,39 +14,39 @@ let persons = [
   },
   {
     name: "Іван Миколайчук",
-    img: "http://surl.li/gdzoi"
+    img: "./img/004.png"
   },
   {
-    name: "Павло Скоропатський",
-    img: "http://surl.li/gdzop"
-  },
-  {
-    name: "Симон Петлюра",
-    img: "http://surl.li/gdzot"
-  },
-  {
-    name: "Степан Бандера",
-    img: "http://surl.li/gbjzp"
-  },
-  {
-    name: "Євген Коновалець",
-    img: "http://surl.li/gblax"
-  },
-  {
-    name: "Левко Лук'яненко",
-    img: "http://surl.li/gdznp"
-  },
-  {
-    name: "Іван Миколайчук",
-    img: "http://surl.li/gdzoi"
-  },
-  {
-    name: "Павло Скоропатський",
-    img: "http://surl.li/gdzop"
+    name: "Павло Скоропадський",
+    img: "./img/005.png"
   },
   {
     name: "Симон Петлюра",
-    img: "http://surl.li/gdzot"
+    img: "./img/006.png"
+  },
+  {
+    name: "Віктор Ющенко",
+    img: "./img/007.png"
+  },
+  {
+    name: "Любомир Гузар",
+    img: "./img/008.jpg"
+  },
+  {
+    name: "Михайло Грушевський",
+    img: "./img/009.png"
+  },
+  {
+    name: "Володимир Винниченко",
+    img: "./img/010.png"
+  },
+  {
+    name: "Володимир Довженко",
+    img: "./img/011.jpg"
+  },
+  {
+    name: "Євген Петрушевич",
+    img: "./img/012.png"
   }
 ];
 let tiles = [];
