@@ -147,11 +147,11 @@ function check() {
     chosen = [];
   }
 }
+
 let fon = new Audio();
 fon.src = "./sounds/kossacks.mp3";
 fon.play();
-setInterval(fon.play(), 1500000);
-
+fon.volume = 0.1
 
 let reset = document.querySelector(".reset")
 reset.addEventListener('click',
