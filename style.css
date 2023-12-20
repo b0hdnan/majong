@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  --tileWth: 60px;
-  --tileHht: 100px;
+  --tileWth: 100px;
+  --tileHht: 140px;
 }
 body {
   display: flex;
@@ -18,12 +18,22 @@ body {
 }
 .board {
   display: flex;
-  flex-basis: calc(var(--tileWth) * 6 + 40px);
-  flex-shrink: 0;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  height: calc(var(--tileHht) * 4 + 30px);
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
   margin: 0 auto;
+	width: calc(var(--tileWth) * 5);
+	gap: 10px;
+}
+
+.tile-row{
+	display: flex;
+	gap: 12px;
+}
+
+.tile-row:nth-child(1){
+	position: absolute;
+	z-index: 1;
 }
 
 .tile {
