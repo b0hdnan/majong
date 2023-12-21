@@ -26,7 +26,7 @@ let persons = [
 	},
 	{
 		name: "Віктор Ющенко",
-		img: "./img/007.png"
+		img: "./img/007.jpg"
 	},
 	{
 		name: "Любомир Гузар",
